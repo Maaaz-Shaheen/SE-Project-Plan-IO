@@ -43,7 +43,7 @@ const filteredTasks = (tasks, filters) => {
 
 			const checkCompleted = task.data.completed === false;
 			const checkOrder = task.data.order === "none";
-			const checkTimeStamp = task.data.timeStamp === -1;
+			// const checkTimeStamp = task.data.timeStamp === -1;
 			const checkPriority = task.data.priority === -1;
 			const checkProject = task.data.project === "";
 			const checkDescription = task.data.description === "";
@@ -62,7 +62,7 @@ const filteredTasks = (tasks, filters) => {
 				checkCompleted &&
 				checkContext &&
 				checkPriority &&
-				checkTimeStamp &&
+				// checkTimeStamp &&
 				checkProject &&
 				checkDescription
 			);

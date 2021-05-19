@@ -34,7 +34,7 @@ export const startGetTasksAction = () => {
 					}
 
 					if (!task.data.timeStamp) {
-						task.data.timeStamp = -1;
+						task.data.timeStamp = new Date().setHours();
 					}
 					if (!task.data.order) {
 						task.data.order = "none";
@@ -68,7 +68,7 @@ export const startQuickAddTaskAction = (task) => {
 				project: "",
 				priority: -1,
 				contexts: {},
-				timeStamp: -1,
+				timeStamp: new Date().setHours(0),
 				description: "",
 				order: "none",
 			})
@@ -80,7 +80,7 @@ export const startQuickAddTaskAction = (task) => {
 						project: "",
 						priority: -1,
 						contexts: {},
-						timeStamp: -1,
+						timeStamp: new Date().setHours(0),
 						description: "",
 						order: "none",
 					},
