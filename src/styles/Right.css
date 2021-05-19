@@ -1,0 +1,35 @@
+.right {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	height: 90%;
+	justify-content: space-between;
+	overflow-y: auto;
+
+	/* scrollabl */
+}
+
+.right-title {
+	display: flex;
+	font-size: 25px;
+}
+
+.right-title input {
+	margin-left: 1rem;
+}
+
+.right-multipleChoice {
+	margin: 0.5rem;
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.right-multipleChoice span {
+	margin-left: 1rem;
+}
+
+/* .right-datePicker {
+	z-index: 3;
+} */

@@ -1,0 +1,9 @@
+.sidebar {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	border-right: 3px solid #5664d2;
+	font-size: 1.25rem;
+	/* position: fixed; */
+}

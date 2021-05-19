@@ -1,0 +1,54 @@
+.landingPage {
+	/* background-color: #fefefe; */
+	background-color: #fbfbfb;
+	height: 100vh;
+	margin-top: -60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.landingPage > h1 {
+	font-size: 4.5rem;
+	color: #5664d2;
+}
+
+.landingPage-box {
+	background-color: #fff;
+	width: 30%;
+	/* border: 1px solid #5664d2; */
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	margin-bottom: 2rem;
+}
+
+.landingPage-header {
+	text-align: center;
+	color: #fff;
+	background-color: #5664d2;
+
+	/* background-color: #fcc100; */
+	padding: 1rem;
+}
+
+.landingPage-body {
+	padding: 1rem;
+}
+
+.landingPage-otherLinks {
+	text-align: center;
+	margin-top: 20px;
+}
+.landingPage-otherLinks > p {
+	margin-top: 10px;
+}
+
+.landingPage-otherLinks--googleBtn {
+	max-width: 60%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+/* .landingPage-formGroup {
+	display: flex;
+} */

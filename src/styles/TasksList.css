@@ -1,0 +1,10 @@
+.tasksList {
+	margin-top: 1.5rem;
+}
+
+.tasksList-loadingPara {
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 20%;
+	color: #777;
+}

@@ -1,0 +1,43 @@
+.myModal {
+	max-width: 50%;
+}
+
+.myModal > .modal-content {
+	border-radius: 22px 22px 10px 10px;
+}
+
+.myModal .close {
+	color: #fff;
+}
+
+.myModal-title {
+	background-color: #5664d2;
+	color: #fff;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.myModal-contextsBody {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 20px;
+}
+
+.myModal-contextsBody label {
+	display: flex;
+	padding: 0.5rem;
+}
+
+.myModal-contextsBody span {
+	margin-left: 5px;
+}
+
+.myModal-checkBox {
+	width: 30px;
+	height: 30px;
+}
+
+.myModal-radio {
+	margin-top: 5px;
+	width: 20px;
+	height: 20px;
+}

@@ -1,0 +1,19 @@
+.moreInfoSection {
+	background-color: #fff;
+	height: 100%;
+	border-left: 3px solid #5664d2;
+	overflow-y: auto;
+
+	/* position: fixed; */
+}
+
+.moreInfoSection-placeholderText {
+	/* height: 100%; */
+	/* margin-top: 50%; */
+	text-align: center;
+	/* padding-left: 10rem; */
+	padding: 2rem;
+	padding-top: 50%;
+	font-size: 2rem;
+	color: rgba(44, 44, 44, 0.6);
+}
